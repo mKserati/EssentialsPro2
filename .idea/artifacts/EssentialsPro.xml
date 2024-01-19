@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EssentialsPro">
+    <output-path>$USER_HOME$/OneDrive/Desktop/Neuer Ordner (2)/plugins</output-path>
+    <root id="archive" name="EssentialsPro.jar">
+      <element id="module-output" name="EssentialsPro" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>
