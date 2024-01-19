@@ -1,0 +1,3 @@
+name: EssentialsPro
+version: '${project.version}'
+main: de.essentialspro.EssentialsPro
