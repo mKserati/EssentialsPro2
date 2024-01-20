@@ -1,3 +1,9 @@
 name: EssentialsPro
 version: '0.1-SNAPSHOT'
 main: de.essentialspro.EssentialsPro
+
+
+commands:
+  gamemode:
+    aliases: [gm]
+  stop:

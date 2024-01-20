@@ -1,6 +1,7 @@
 package de.essentialspro;
 
 import de.essentialspro.commands.CommandGamemode;
+import de.essentialspro.commands.CommandStop;
 import de.essentialspro.listener.JoinListener;
 import de.essentialspro.utils.Utilities;
 import org.bukkit.Bukkit;
@@ -40,6 +41,7 @@ public final class EssentialsPro extends JavaPlugin {
 
     public void loadCommands() {
         getCommand("gamemode").setExecutor(new CommandGamemode());
+        getCommand("stop").setExecutor(new CommandStop());
     }
 
     public static Utilities getUtilities() {
