@@ -1,3 +1,8 @@
 name: EssentialsPro
 version: '${project.version}'
 main: de.essentialspro.EssentialsPro
+
+
+commands:
+  gamemode:
+    aliases: [gm]
